@@ -1,0 +1,29 @@
+{
+  "name": "stylem",
+  "version": "0.0.0",
+  "description": "A plugin for J2C + Mithril styled components",
+  "main": "stylem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barneycarroll/stylem.git"
+  },
+  "keywords": [
+    "mithril",
+    "j2c",
+    "plugin",
+    "css-in-js",
+    "css",
+    "style",
+    "js",
+    "components"
+  ],
+  "author": "Barney Carroll <barney.carroll@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barneycarroll/stylem/issues"
+  },
+  "homepage": "https://github.com/barneycarroll/stylem#readme"
+}
