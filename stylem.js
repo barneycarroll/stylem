@@ -50,7 +50,11 @@ function stylem( style_function ){
       selectors.delete( vnode.state )
     },
     view : vnode =>
-      m( '.' + state.get( vnode.state ) )
+      m(
+        '.' + state.get( vnode.state ),
+        vnode.attrs,
+        vnode.children
+      )
   }
 }
 
