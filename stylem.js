@@ -1,7 +1,7 @@
 const m = require( 'mithril' )
 
 if( typeof require != 'undefined' )
-  var j2c = require( 'j2c' )
+  var j2c = require( 'j2c' )()
 
 const rules     = []
 const sheets    = []
@@ -31,7 +31,7 @@ function process( style_function ){
     let   sheet
 
     if( index == -1 ){
-      sheet = j2c( { ' ' : rule } )
+      sheet = j2c.sheet( { ' ' : rule } )
 
       rules.push( rule )
       sheets.push( sheet )
