@@ -1,3 +1,5 @@
+const m = require( 'mithril' )
+
 if( typeof require != 'undefined' )
   var j2c = require( 'j2c' )
 
@@ -14,7 +16,7 @@ function init(){
     ),
     {
       view : () =>
-        sheets()
+        sheets
     }
   )
 }
@@ -51,7 +53,7 @@ function stylem( style_function ){
     },
     view : vnode =>
       m(
-        '.' + state.get( vnode.state ),
+        '.' + selectors.get( vnode.state ),
         vnode.attrs,
         vnode.children
       )
