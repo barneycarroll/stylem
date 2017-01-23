@@ -4,7 +4,7 @@
   "description": "A plugin for J2C + Mithril styled components",
   "main": "stylem.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mithril/ospec/bin/ospec"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/barneycarroll/stylem/issues"
   },
-  "homepage": "https://github.com/barneycarroll/stylem#readme"
+  "homepage": "https://github.com/barneycarroll/stylem#readme",
+  "dependencies": {
+    "j2c": "^1.0.0-4",
+    "mithril": "1.0.0-rc.8"
+  },
+  "devDependencies": {
+    "jsdom": "^9.9.1",
+    "mithril": "https://github.com/lhorie/mithril.js/tarball/rewrite"
+  }
 }
